@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/tab1.html -->
+<html data-google-analytics-opt-out=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Pet store</title>
+        <link rel="stylesheet" href="./Pet store_files/tab1.css">
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1208.0" data-gr-ext-installed="">
+        <div id="main-header"><header>
+                <h1>Eli's store</h1>
+             </header>
+        </div>
+            <div id="k"><h2><p>welcome to our store</p></h2></div>
+        <p>
+           Our pet store is located in a cozy corner of town, it’s the go-to place for pet lovers looking for high-quality food, accessories, and everything their furry, feathered, or scaly friends might need. Shelves are lined with premium pet supplies, from plush toys and comfortable beds to nutritious treats and grooming products. You offer a carefully curated selection of pets—ranging from playful puppies to curious reptiles—ensuring every animal is healthy, well-cared-for, and ready to join a loving family. Your friendly and knowledgeable staff is always on hand to offer advice, making sure every pet and pet owner finds exactly what they’re looking for. The store also hosts adoption events and educational workshops, making it a community hub for animal lovers.
+        </p>
+            <h3><li> pet supplies </li></h3>
+        <nav>
+        <ul>
+            <ol>
+                <div id="food"><li><h4>food and treat</h4></li></div>
+                <ul>
+                    <li>wet</li>
+                    <li>dry</li>
+                    <li>raw</li>
+                </ul>
+                <div id="accessories"><li><h4>feeding accessories</h4></li></div>
+                <ul>
+                    <li>bowl feeders</li>
+                    <img src="./Pet store_files/bowl" alt="">
+                    <li>water can</li>
+                    <img src="./Pet store_files/water can" alt="">
+                </ul>
+                <div id="health"><li><h4>health &amp; wellness</h4></li></div>
+                    <ul>
+                        <li>supplements</li>
+                        <ul>
+                            <table>
+                                <tbody><tr>
+                                    <th>vitamins</th>
+                                    <th>minerals</th>
+                                </tr>
+                                <tr>
+                                    <td>vitamin A</td>
+                                    <td>calcium</td>
+                                </tr>
+                                <tr>
+                                    <td>vitamin C</td>
+                                    <td>iron</td>
+                                </tr>
+                            </tbody></table>
+                        </ul>
+                        <li>veterinary services</li>
+                    </ul>
+                <div id="toys"><li><h4>toys</h4></li></div>
+                <ul>
+                    <li>chew toys</li>
+                    <img src="./Pet store_files/chew toy" alt="">
+                    <li>scratching posts</li>
+                    <img src="./Pet store_files/scratching post" alt="">
+                </ul>
+                <div id="houses"><li><h4>houses</h4></li></div>
+                <ul>
+                    <li>kennel</li>
+                    <img src="./Pet store_files/kennel" alt="">
+                    <li>bird cage</li>
+                    <img src="./Pet store_files/cage" alt="">
+                </ul>
+            </ol>
+        </ul>
+            <p>we also have pets for addoption</p>
+           <h3><li>pets</li></h3>
+           <ul>
+            <ol>
+                <li>dog</li>
+                 <img src="./Pet store_files/dog" alt="">
+                <li>cat</li>
+                <img src="./Pet store_files/cat" alt="">
+                <li>birds</li> 
+                <img src="./Pet store_files/bird" alt=""> 
+            </ol>
+            </ul>
+        </nav> 
+<section>
+<form action="http://127.0.0.1:5500/submit" method="post">         
+    <label for="pet you want">pet you would want to buy:</label>
+    <input type="text" name="pet u want" id="pet u want" required="">
+
+   <div id="l"><label for="county">county:</label>
+    <select name="county" id="county">
+        <option value="nairobi">nairobi</option>
+        <option value="kiambu">kiambu</option>
+    </select></div>
+    <div id="c">
+    <label for="comments">comments:</label>
+    <textarea name="comments" id="comments"></textarea>
+    <div id="b"><button type="submit">submit</button></div>
+</div>
+</form>
+     
+        
+<p>we are located at kajiado</p>
+<iframe src="./Pet store_files/Kajiado_map.html" frameborder="4"></iframe>
+            <footer>
+                <a href="http://127.0.0.1:5500/contact">contact us</a>
+                <a href="http://127.0.0.1:5500/email">email us</a>
+            </footer>
+</section>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

@@ -1,0 +1,52 @@
+
+/* select 1 */
+p{
+    color: blueviolet;
+    text-indent: 2ex;
+    font-size: 30px;
+}
+/* select 1 */
+nav{
+    display: inline;
+    font-size: 30px;
+}
+/* select 1 */
+table{
+    border-style: solid;
+    font-size: 30px;
+}
+/* select 1 */
+ul{
+    margin-top: auto;
+    font-size: 30px;
+}
+/* select 1 */
+h2{align-items: center;}
+/* select */
+#main-header{
+    margin-right: 85px;
+    background-color: blanchedalmond;
+    font-size: 50px;
+}
+/* select */
+div{color: rgb(255, 0, 85);}
+h3{color: chocolate;}
+h1{
+    color: blue;
+    padding: 0px 800px;
+}
+#k{
+    margin-left: 800px;
+    color: cornflowerblue;
+}
+section{
+    padding-left: 800px;
+    background-color: lavender;
+    padding-right: 400px;
+    font-size: 30px;
+}
+footer{display:flex;gap: 50px;}
+#l{display:flex;gap: 50px;}
+#c{display:flex;gap: 50px;}
+#b{background-color: blue;}
+h3{font-size: 30px;}
